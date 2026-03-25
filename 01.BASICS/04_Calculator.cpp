@@ -4,7 +4,7 @@ using namespace std;
 
 float num1, num2;
 
-// functions
+
 float add() {
      return num1 + num2; 
     }
@@ -30,8 +30,3 @@ int main() {
     return 0;
 }
 
-
-// #include <iostream>
-// using namespace std;
-// float a,b; float add(){return a+b;} float sub(){return a-b;} float mul(){return a*b;} float divi(){return a/b;}
-// int main(){cin>>a>>b; cout<<add()<<" "<<sub()<<" "<<mul()<<" "<<divi();}
