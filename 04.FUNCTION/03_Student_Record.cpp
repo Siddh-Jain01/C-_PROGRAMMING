@@ -44,7 +44,7 @@ int main()
     int s3m1 = 95, s3m2 = 92, s3m3 = 88, s3m4 = 90, s3m5 = 94;
    
 
-    result(name1, class1, sec1, enr1, s1m1, s1m2, s1m3, s1m4, s1m5);
+    result(name2, class1, sec1, enr1, s1m1, s1m2, s1m3, s1m4, s1m5);
     return 0; 
 }
 
