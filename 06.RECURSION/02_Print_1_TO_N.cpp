@@ -1,15 +1,15 @@
 #include<iostream>
 using namespace std;
 
-void print(int x,int n){
-    if(x>n) return;
-    cout<<x<<endl;
-    print (x+1,n);
+void print(int x){
+    if(x==0) return; // base case
+    print (x-1);//call
+    cout<<x<<endl;// work
 
 }
 int main (){
-    int x,n;
+    int x;
     cout<<"enter the number: ";
-    cin>>n;
-    print(1,n);
+    cin>>x;
+    print(x);
 }
