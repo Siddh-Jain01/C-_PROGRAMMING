@@ -18,7 +18,7 @@ int main(){
     int b = fact(r);
     int c = fact(n-r);
     cout<<a/(b*c)
-    
+     
     ;
 
 
