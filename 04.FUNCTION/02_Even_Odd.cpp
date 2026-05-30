@@ -2,17 +2,29 @@
 #include<iostream>
 using namespace std;
 
-int even(int a)
+void even(int a)
 {
-    if(a%2==0)
-    cout<<a<<" : even"<<endl;
+    if(a % 2 == 0)
+        cout << a << " : even" << endl;
+    else if(a % 2 != 0)
+        cout << a << " : odd" << endl;
+    else
+        cout << "Invalid!... Plz enter valid integer" << endl;
 }
-int odd(int b)
+
+void odd(int b)
 {
-    if(b%2!=0);
-    cout<<b<<" : odd";
+    if(b % 2 != 0)
+        cout << b << " : odd" << endl;
+    else if(b % 2 == 0)
+        cout << b << " : even" << endl;
+    else
+        cout << "Invalid!... Plz enter valid integer" << endl;
 }
-int main(){
-    even(6);
+
+int main()
+{
+    even(4);
     odd(5);
+    return 0;
 }
